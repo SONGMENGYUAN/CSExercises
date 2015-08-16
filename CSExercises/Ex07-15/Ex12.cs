@@ -15,7 +15,7 @@ namespace CSExercises
             double y = 2.4 + x * 0.4;
             Console.WriteLine("The total fare is ${0:0.00}", y); 
             Console.WriteLine((double)y);
-            Console.WriteLine ("Rounded: "+Math.Round(y));
+            Console.WriteLine ("Rounded: "+Math.Round(y,1));
         }
     }
 }

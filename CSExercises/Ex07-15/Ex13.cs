@@ -14,8 +14,15 @@ namespace CSExercises
             double x = Convert.ToDouble(Console.ReadLine());
             double y = 2.4 + x * 0.4;
             Console.WriteLine("The total fare is ${0:0.00}", y);
-            Console.WriteLine((double)y);
-            Console.WriteLine("Rounded up: " + Math.Ceiling(y)); 
+            double a =Math.Floor(y*10)/10;
+            if(y>a)
+            {
+                Console.WriteLine("Rounded up: {0:0.00}", a + 0.1);
+            }
+            else
+            {
+                Console.WriteLine("Rounded up: {0:0.00}", a);
+            }
         }
     }
 }
