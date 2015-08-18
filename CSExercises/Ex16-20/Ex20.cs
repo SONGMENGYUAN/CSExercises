@@ -20,4 +20,4 @@ namespace CSExercises
                 Console.WriteLine("Total price for this order is ${0}", s + 700 * z);
         }
     }
-}00
+}
